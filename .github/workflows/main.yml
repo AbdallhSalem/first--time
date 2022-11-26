@@ -14,7 +14,7 @@ n:
            
            steps:
                
-               - uses:actions/checkout@v3
-               - name:"login to docker hub"
-                 run:docker login --username abdalluh --password dckr_pat_pgG6yQpEPqV5j-VsLS4DEIEcBPU
+               - uses: actions/checkout@v3
+               - name: "login to docker hub"
+                 run: docker login --username abdalluh --password dckr_pat_pgG6yQpEPqV5j-VsLS4DEIEcBPU
            
