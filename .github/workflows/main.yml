@@ -1,1 +1,18 @@
-
+n:
+    push:
+        branches:
+            - master
+            
+            
+            
+            
+            
+   jobs: 
+       build:
+           runs-on: ubountu-latest
+           
+           
+           steps:
+               
+               -uses:actions/checkout@v3
+           
